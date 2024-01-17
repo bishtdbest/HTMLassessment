@@ -1,0 +1,67 @@
+/* global Style */
+
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{ color: white; text-decoration: none;}
+body{background-color: #041334; font-family: 'Open Sans', sans-serif; font: 400 16px/1.5 'Poppins', sans-serif; color: white;}
+.container{max-width: 1240px; margin: 0 auto;}
+.fullwidthWrpper{background-color: #00092a;}
+header,footer,main,figure,nav{display: block;}
+img{display: inline-block;}
+/* button styles */
+button{cursor: pointer; border: 0 none;}
+button.btnIcon{background-color: transparent;}
+button.mainBtn{ background: linear-gradient(to right,  #3dd8ee 0%,#0897e6 100%); color: white; border-radius: 8px ; font-size: 24px; font-weight: 700; padding: 15px 40px;}
+
+.wrapper { padding-top: 105px;}
+
+span.greenText{ color: #14FF00;}
+span.redText{color: #FF0000;}
+
+/* header start here */
+.header{position: fixed; z-index: 10; left: 0; top: 0; width: 100%; background-color: #091839;}
+.header .container{display: flex; padding: 32px 25px; align-items: center; width: 88.5%;}
+
+.headerMenu {flex: 1; display: flex; justify-content: flex-end;}
+.headerMenu ul{display: flex;}
+.headerMenu ul li{ margin-right: 40px; font-size: 15px; }
+.headerMenu ul li a:hover{ text-decoration: underline; }
+.searchbox{min-width: 200px;  display: flex; justify-content: flex-end;}
+.searchWrrapper{display: none;}
+
+/* main container */
+.mainContainer{}
+.firstSection{ padding: 75px 0 82px;}
+.headingText{ margin-bottom: 50px;}
+.headingText h2{font-size: 24px; font-weight: 500; margin-bottom: 10px;}
+.headingText strong{font-size: 20px; font-weight: 700;}
+
+.tableWrapper {margin-bottom: 22px;}
+.tableWrapper table{width: 100%; text-align: center;}
+.tableWrapper table th:first-child,
+.tableWrapper table td:first-child{text-align: left;}
+.tableWrapper table th,.tableWrapper table td{padding: 15px; font-size: 20px;}
+
+.tableWrapper .itemName{display: flex; align-items: center;}
+.tableWrapper .itemName figure, .tableWrapper .itemName strong{margin-right: 20px;}
+.tableWrapper .itemName figure img{display: block;}
+.tableWrapper .itemName span{color: #858585}
+
+.buttonWrpper{ text-align: center;}
+
+/* About us section */
+.aboutUsSection{display: flex;}
+.WorldMap{position: relative;}
+.aboutUsSection .mapOverlay{position: absolute; left: 0; top: 0;} 
+
+/* Why Us section */
+
+.whyUsSection{display: flex;}
+.leftSide{width: 50%;}
+.rightSide{flex: 1;}
+
+/* footer */
+.footerTop{display: flex;}
+.footerleft{width: 50%;}
+.footerRight{display: flex; flex: 1;}
+.colList{ flex: 1;}
